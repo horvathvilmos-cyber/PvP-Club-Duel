@@ -1,0 +1,21 @@
+name: PvP-Club-Duels
+version: '0.1.7-ALPHA-FOLIA'
+
+main: hu.ClashRoyale456.pvPClubDuels.PvPClubDuels
+description: A super duel plugin for Paper servers
+api-version: '1.21.8'
+load: POSTWORLD
+authors: [ClashRoyale456]
+folia-supported: true
+
+commands:
+  duel:
+    description: Invite a player for a duel
+  acceptduel:
+    description: Accept a duel invite
+  editkit:
+    description: Edit a kit
+  setarena:
+    description: Select the 2 team spawnpoint for a arena
+  leave:
+    description: leave from a duel

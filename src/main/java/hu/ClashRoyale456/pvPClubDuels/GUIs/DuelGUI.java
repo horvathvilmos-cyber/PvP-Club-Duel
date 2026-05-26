@@ -10,6 +10,6 @@ import org.bukkit.entity.Player;
 import org.bukkit.inventory.meta.ItemMeta;
 
 public class DuelGUI {
-  Inventory inv = Bukkit.createInventory(null, 27, Component.text("teszt menü"));
+  Inventory inv = Bukkit.createInventory(null, 27, Component.text("Duel with %player%"));
 
 }
